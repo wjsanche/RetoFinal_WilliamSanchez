@@ -14,8 +14,8 @@ Debes crear una clase abstracta y dos clases hijas:
 	    - `numeroCuenta`: Número único de cuenta.
 	    - `listaTransacciones`: Historial de transacciones de la cuenta.
 	- Utiliza herencia para definir dos tipos de cuentas:
-	- `CuentaBásica`: cuenta estándar con comisiones por algunas operaciones.
-	- `CuentaPremium`: cuenta sin comisiones adicionales.
+	    - `CuentaBásica`: cuenta estándar con comisiones por algunas operaciones.
+	    - `CuentaPremium`: cuenta sin comisiones adicionales.
 2. Operaciones sobre las cuentas: Implementa las siguientes operaciones que afectarán el saldo de las cuentas. Utiliza polimorfismo para que las reglas cambien según el tipo de cuenta:
 	- **Depósito desde sucursal**: sin costo.
 	- **Depósito desde cajero automático**: costo de 2 USD (solo en `CuentaBásica`).
